@@ -9,7 +9,6 @@
 -   Enter the project : `cd lumen-jwt-authentication`
 -   Install composer dependency for current project : `composer install`
 -   Copy file .env.example, and then paste it as .env, and then set your .env file
--   Generate APP key : `php artisan key:generate`
 -   Generate Tymon JWT secret key, the secret will be found in .env file variable JWT_SECRET : `php artisan jwt:secret`
 -   Migrate the database : `php artisan migrate`
 -   Serve lumen project : `php -S localhost:8000 -t public`
