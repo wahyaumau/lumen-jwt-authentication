@@ -20,10 +20,10 @@
 -   The configuration file for authentication is in config/auth.php, as for token is in config/jwt.php
 -   To change token expiration time, change `'ttl' => env('JWT_TTL', MINUTES)` in config/jwt.php, the default is 60 minutes
 
-## Register
+### Register
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--bDSm0Stf--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://res.cloudinary.com/iamndie/image/upload/v1566663229/Screen_Shot_2019-08-24_at_4.34.01_PM_vnm7zv.png)
 
-## Login
+###Login
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--rNSeRinR--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://res.cloudinary.com/iamndie/image/upload/v1566672721/Screen_Shot_2019-08-24_at_7.51.18_PM_srhwrs.png)
 
 ## Access guarded route
